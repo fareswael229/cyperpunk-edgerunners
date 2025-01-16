@@ -1,0 +1,246 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(255, 225, 0);
+  color: black;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0px;
+}
+
+header {
+  text-align: left;
+  background-color: black;
+  margin: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  padding: 1px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  overflow: hidden;
+  margin: 15px;
+  padding: 0px;
+  text-align: left;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  padding: 15px;
+  display: block;
+  transition: 0.5;
+}
+
+.navbar a:hover {
+  color: rgb(255, 225, 0);
+}
+
+.navbar li {
+  float: left;
+}
+
+.main1 h2 {
+  margin: 17px 40px 25px;
+  text-align: center;
+  font-size: 96px;
+}
+
+.main1 h4 {
+  text-align: center;
+  margin: 20px 40px 27px;
+}
+
+.main1 {
+  margin: 0px 40px;
+  font-family: 22px bold small-caps sans-serif;
+  font-size: larger;
+}
+
+.storyy {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+  margin-top: 20px;
+
+}
+
+.story {
+  border: 1px solid black;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: black;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin: 20px 20px 20px 20px;
+  padding: 10px;
+}
+
+.story p {
+  color: white;
+  padding: 20px;
+}
+
+.story img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+/*david,lucy,rebecca*/
+.main2 h2 {
+  margin: 17px 40px 25px;
+  text-align: center;
+  font-size: 96px;
+}
+
+.main2 h4 {
+  text-align: center;
+  margin: 20px 40px 27px;
+}
+
+.main2 {
+  margin: 0px 40px;
+  font-family: 22px bold small-caps sans-serif;
+  font-size: larger;
+  padding: 60px;
+  text-align: center;
+  font-size: 30px;
+  color: black;
+}
+
+.grid {
+  display: flex;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+  margin-top: 20px;
+}
+
+.card {
+  border: 10px solid black;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: black;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin: 30px 30px 30px 30px;
+  width: 500px;
+  height: 450px;
+
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card h3 {
+  margin: 10px 0;
+  color: black;
+}
+
+.card p {
+  padding: 0 15px 15px;
+}
+
+img {
+  border-radius: 8px;
+}
+.card p{
+  color: white;
+}
+.card h3{
+  color: white;
+}
+
+/*maine,kiwi,adam*/
+
+.main3 h2 {
+  margin: 17px 40px 25px;
+  text-align: center;
+  font-size: 96px;
+}
+
+.main3 h4 {
+  text-align: center;
+  margin: 20px 40px 27px;
+}
+
+.main3 {
+  margin: 0px 40px;
+  font-family: 22px bold small-caps sans-serif;
+  font-size: larger;
+  padding: 60px;
+  text-align: center;
+  font-size: 30px;
+  color: black;
+}
+
+.grids {
+  display: flex;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+  margin-top: 20px;
+}
+
+.cards {
+  border: 10px solid black;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: black;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin: 30px 30px 30px 30px;
+  width: 500px;
+  height: 500px;
+
+}
+
+.cards:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.cards img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.cards h3 {
+  margin: 10px 0;
+  color: black;
+}
+
+.cards p {
+  padding: 0 15px 15px;
+}
+
+img {
+  border-radius: 8px;
+}
+.cards p{
+  color: white;
+}
+.cards h3{
+  color: white;
+}
+footer {
+  background-color: black;
+  color: rgb(255, 225, 0);
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
+.vid{
+  border-radius: 8px;
+}
+
